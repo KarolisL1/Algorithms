@@ -65,4 +65,4 @@ function recursiveFibonacci(num) {
     return recursiveFibonacci(num - 1) + recursiveFibonacci(num - 2)
 }
 
-console.log(recursiveFibonacci(7));
+console.log(recursiveFibonacci(4));
