@@ -10,7 +10,7 @@ function reverseString(str) {
     return output;
 }
 
-// console.log(reverseString("Hello") == "olleH");
+console.log(reverseString("Hello") == "olleH");
 // console.log(reverseString("12345") == "54321");
 // console.log(reverseString("I like to pet cats!") == "!stac tep ot ekil I");
 

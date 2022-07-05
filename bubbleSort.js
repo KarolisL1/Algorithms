@@ -4,8 +4,6 @@
 // and swap them if they need to be swapped
 
 function bubbleSort(arr) {
-    // code to sort here
-    // sort in-place
     for( var x=0; x<arr.length; x++ ) {
         for (var i = 0; i < arr.length - x; i++) { //swapping the first one
             if (arr[i] > arr[i + 1]) {
@@ -15,7 +13,7 @@ function bubbleSort(arr) {
             }
         }
     }
-return arr
+    return arr
 }
 
 let test_a = [8, 1, 4, 5, 9, 2, 7, 6, 3];
